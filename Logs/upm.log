@@ -1,0 +1,35 @@
+[2026-09-25T21:20:17.897Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 10752 --ipc-path Unity-Upm-10752 -l 2 --log-file C:\\Users\\nadia\\Documents\\GitHub\\KioskProject\\KioskProject/Logs/upm.log
+[2026-09-25T21:20:18.011Z][INFO] IPC server started (IPC path=Unity-Upm-10752).
+[2026-09-25T21:20:18.011Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-10752.
+[2026-09-25T21:20:39.347Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:20:41.189Z][INFO] project:list-packages --> 200 (1842 ms)
+[2026-09-25T21:20:42.324Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-25T21:20:42.347Z][INFO] config:project:get-registries --> 200 (23 ms)
+[2026-09-25T21:20:42.411Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:20:42.846Z][INFO] project:list-packages --> 200 (434 ms)
+[2026-09-25T21:21:22.980Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:21:23.088Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:21:23.462Z][INFO] project:list-packages --> 200 (482 ms)
+[2026-09-25T21:21:23.623Z][INFO] project:list-packages --> 200 (535 ms)
+[2026-09-25T21:21:25.539Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:21:25.834Z][INFO] project:list-packages --> 200 (295 ms)
+[2026-09-25T21:21:26.210Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-25T21:21:26.222Z][INFO] config:project:get-registries --> 200 (12 ms)
+[2026-09-25T21:21:38.475Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:21:38.785Z][INFO] project:list-packages --> 200 (311 ms)
+[2026-09-25T21:21:40.025Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.ai.assistant"
+}
+[2026-09-25T21:21:40.394Z][INFO] packages:get-packageinfo --> 200 (369 ms)
+[2026-09-25T21:21:49.551Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-25T21:21:50.802Z][INFO] project:list-packages --> 200 (1250 ms)

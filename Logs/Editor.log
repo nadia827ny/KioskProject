@@ -1,0 +1,763 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 7144)
+VBCSCompiler prewarm took 60.92 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7" at "2026-09-25T21:20:12.6380623Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16208 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-25T21:20:12Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18360, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4d8d5a01c5174e2b8c2b7d945fd3193c
+  Correlation Id:          1330d2a581d7137aeef1bed4a47e9b1e
+  External correlation Id: 6437595351853532837
+  Machine Id:              qWafhisASDQIfrFUAICso/rlL1w=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7" (connect: 0.00s, validation: 0.00s, handshake: 0.29s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7-notifications" at "2026-09-25T21:20:12.9357052Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token r8P68TngPh...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Module] Licensing Background thread has ended after 0.34s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-WAEC1EyiiZrrBbSeSSQu7
+-hubSessionId
+96f88f14-38ad-4f54-9a42-39ac83356b2a
+-accessToken
+r8P68TngPhKcITE9BCbRlZmEgSIl36-jn7K7YIulw7w002f
+Successfully changed project path to: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject
+C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [13996]  Target information:
+
+Player connection [13996]  * "[IP] 216.37.102.188 [Port] 55504 [Flags] 2 [Guid] 691957774 [EditorId] 691957774 [Version] 1048832 [Id] WindowsEditor(7,Nadiasurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-10752" after 0.6 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 4aa196f9ef678214ef5c967b6b899d95
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Unity Data Store running and initialised
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 3.32 ms, found 0 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     8104 MB
+    Driver:   32.0.101.7088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.619788 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.749 seconds
+Domain Reload Profiling: 10842ms
+	BeginReloadAssembly (642ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (421ms)
+	initialDomainReloadingComplete (1084ms)
+	LoadAllAssembliesAndSetupDomain (2922ms)
+		LoadAssemblies (632ms)
+		TypeCache.Refresh (2610ms)
+			TypeCache.ScanAssembly (2142ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (5757ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (143ms)
+			BeforeProcessingInitializeOnLoad (274ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (3081ms)
+			EditorAssembliesLoaded (5ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.assistant@2.19.0-pre.2 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ai.assistant@8d1e3e89e3a7)
+    com.unity.ai.inference@2.6.1 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ai.inference@9a123aee5df7)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.dt.app-ui@2.1.11 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.dt.app-ui@cd5609b130ce)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.searcher@4.9.5 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.burst@2.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.mathematics@1.4.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.12 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 1s965ms
+[1219/1607  1s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (1.75 seconds), 1 items updated, 1607 evaluated
+AssetDatabase: script compilation time: 4.789292s
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 271.95 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.64 ms, found 5 plugins.
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.097 seconds
+Domain Reload Profiling: 12668ms
+	BeginReloadAssembly (740ms)
+		DisableScriptedObjects (137ms)
+		CreateAndSetChildDomain (203ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (211ms)
+	LoadAllAssembliesAndSetupDomain (6566ms)
+		LoadAssemblies (5271ms)
+		TypeCache.Refresh (901ms)
+			TypeCache.ScanAssembly (858ms)
+		AnalyzeDomain (238ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (5099ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (8ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			BeforeProcessingInitializeOnLoad (376ms)
+			ProcessInitializeOnLoadAttributes (2730ms)
+			ProcessInitializeOnLoadMethodAttributes (648ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (7ms)
+		AwakeInstancesAfterBackupRestoration (69ms)
+Starting new worker id: 0 with log in C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=e29ee2db4c8db0d45a94311791344f6d): Total: 44.066 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=31008 ms
+		Asset DB Callback time: managed=132 ms, native=171 ms
+		Scripting: domain reloads=1, domain reload time=7757 ms, compile time=4794 ms, other=202 ms
+		Project Asset Count: scripts=2190, non-scripts=5511
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 175.842ms
+	ApplyChangesToAssetFolders: 2.174ms
+	Scan: 772.787ms
+	Collect global state as custom dependencies: 66.208ms
+	CategorizeScriptCompilationAssets: 6530.094ms
+	ProcessAssetsWithTransientArtifactChanges: 269.478ms
+	CategorizeAssets: 236.603ms
+	CompileScripts: 4793.932ms
+	ImportOutOfDateAssets: 5443.966ms (5416.150ms without children)
+		ReloadNativeAssets: 0.592ms
+		UnloadImportedAssets: 2.066ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.789ms
+		ImportSchedulerStart: 22.359ms
+	PostProcessAllAssets: 132.416ms
+		MonoPostProcessAllAssets: 132.297ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 55.730ms
+			SyncVS.PostprocessSyncProject 7.359ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 7.099ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 6.382ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 6.279ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 3.414ms
+			AssetChangeDetector.OnPostprocessAllAssets 3.349ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 3.319ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 1.969ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.255ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.668ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.629ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.535ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.413ms
+	UnloadStreamsBegin: 3.948ms
+	PersistCurrentRevisions: 0.371ms
+	GenerateScriptTypeHashes: 5.570ms
+	GenerateScriptTypeSerializationHashes: 9.876ms
+	Untracked: 25581.000ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Scanning for USB devices : 1.962ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-KioskProject
+Worker ready: AssetImportWorkerHW0 0
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Loaded scene 'Assets/Scenes/Scene1.unity'
+	Deserialize:            186.098 ms
+	Integration:            267.220 ms
+	Integration of assets:  3.821 ms
+	Thread Wait Time:       52.640 ms
+	Total Operation Time:   509.780 ms
+Unloading 10308 unused Assets / (26.0 MB). Loaded Objects now: 11442.
+Memory consumption went from 0.57 GB to 0.54 GB.
+Total: 53.111400 ms (FindLiveObjects: 2.063600 ms CreateObjectMapping: 1.105000 ms MarkObjects: 33.263700 ms  DeleteObjects: 15.635500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\nadia\Documents\GitHub\KioskProject\KioskProject\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/nadia/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 86.081 seconds
+	Project init time: 				79.488 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.558 seconds
+		Asset Database init time: 		2.444 seconds
+		Global illumination init time: 	0.014 seconds
+		Assemblies load time: 			21.009 seconds
+		Unity extensions init time: 	0.113 seconds
+		Asset Database refresh time: 	44.067 seconds
+	Scene opening time: 			5.888 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790371298611,"processId":10752,"projectLoad":86.0811769,"projectInit":79.4883877,"templateInit":0.0,"packageManagerInit":0.5576832,"assetDatabaseInit":2.444049,"globalIlluminationInit":0.0144219,"assembliesLoad":21.0091637,"unityExtensionsInit":0.1133828,"assetDatabaseRefresh":44.0673416,"sceneOpening":5.8878843}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790371298612,"processId":10752,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=4d06ff7d0dd65664797c7b5f8d9ac4d7): Total: 0.266 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[INFO ] [relay] relay.startup port=9001 mcpClientPort=9002 editorPid=10752
+[INFO ] [relay] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.99)
+[INFO ] [relay] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=128 bundledCAs=145
+[INFO ] [relay] log Starting relay server...
+[INFO ] [relay] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","10752","--shutdown-delay","180","--log-dir","C:\\Users\\nadia\\Documents\\GitHub\\KioskProject\\KioskProject\\Logs"]
+[INFO ] [relay] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"10752","shutdownDelaySeconds":180}
+[INFO ] [relay] log Initializing relay components...
+[INFO ] [relay] log Creating RelayEditor...
+[INFO ] [relay] log WebSocket server started
+[INFO ] [relay] log Relay server initialization completed
+[INFO ] [relay] log MCP Client initialized at port: 9002
+[WARN ] [relay] log [shell-env] Shell environment did not contain a PATH variable
+[INFO ] [relay] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[INFO ] [relay] log Unity client connected with ID: editor-10752-uoypk4 (relay 1.0.12-build.99)
+[INFO ] [relay] connection.established clientId=editor-10752-uoypk4 port=9001
+GPU Resident Drawer created.
+Created GICache directory at C:/Users/nadia/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.067s, timestamps: [86.443 - 86.510]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "r8P68Tng"... (expires: 2026-09-25T23:15:39Z)
+Starting new worker id: 1 with log in C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '79c03d28ec5967a3b29050a6c59585f9') in 0.3589572 seconds
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f37d9ba4797c43cc023f848a8c5a0bb5') in 0.1519133 seconds
+[Worker0] Imported GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '50b888a9c20db7e2e4cb465d1b458c01') in 0.0693323 seconds
+[Worker0] Imported GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f69d2c891e32c44a1d2511e50d53fe2') in 0.1464641 seconds
+[Worker0] Imported GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '96a987d2340f4bdcf9645eff869b33f6') in 0.0747233 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Account API did not become accessible within 30 seconds. This may be due to network issues or editor focus.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.AI.Toolkit.Accounts.Services.States.ApiAccessibleState/<WaitForCloudProjectSettings>d__4:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.Toolkit.Accounts/Services/States/ApiAccessibleState.cs:46)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+Unity.AI.Toolkit.EditorTask/<>c__DisplayClass22_0:<WaitForCondition>b__0 () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.Toolkit.Async/EditorTask.cs:420)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.Toolkit.Accounts/Services/States/ApiAccessibleState.cs Line: 46)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Worker0] Imported GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: PreviewImporter -> (ImportResultId: '836c601e8b97a887b8b70017a3d45281') in 0.0343172 seconds
+TrimDiskCacheJob: Current cache size 3mb
+[Worker0] Imported GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter -> (ImportResultId: 'e7deeb2551deae0121fd5a6b039aae71') in 0.0393317 seconds
+Importing 'GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio' with importer (DefaultImporter)
+Imported 'GUID: 3485a993517e1024cab3ca1ac50e5d08' -> (Import Result ID: '0f4e14999d83359e62090740a0a23600') in 0.028 seconds [static dependencies only]. Details - ImportResultOutputID=3a8376cfc3d7eaea93bab9dbf3d8f7ba DependenciesID=c0b18b8a1b22c41bf847737e5336a855 StaticDependenciesID=5ff310c3b5a43cb3e6d0318d82e0ab7d 
+Refreshing native plugins compatible for Editor in 7.22 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=87ceab77487944d48b3a9309282c41e4): Total: 1.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=4 ms, native=137 ms
+		Asset DB Callback time: managed=844 ms, native=30 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2191, non-scripts=5511
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 2
+	ApplyChangesToAssetFolders: 0.191ms
+	Scan: 22.782ms
+	Collect global state as custom dependencies: 0.845ms
+	OnSourceAssetsModified: 3.772ms
+	ProcessAssetsWithTransientArtifactChanges: 0.136ms
+	CategorizeAssets: 66.149ms
+	ImportOutOfDateAssets: 35.402ms (0.834ms without children)
+		ImportManagerImport: 31.092ms (1.907ms without children)
+			UpdateCategorizedAssets: 0.063ms
+		ReloadNativeAssets: 0.121ms
+		UnloadImportedAssets: 0.299ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.088ms
+		ImportSchedulerStart: 0.959ms
+	PostProcessAllAssets: 846.131ms
+		XRBuildSystem.XRAssetImported 12.386ms
+		VCAutoAddAssetPostprocess 0.288ms
+		VersionControlSettings.HiddenFilePostprocess 0.147ms
+		MonoPostProcessAllAssets: 830.305ms
+			AssetPostprocessor.OnPostprocessAllAssets 203.193ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 82.204ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 15.741ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 8.426ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.096ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 3.664ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 2.441ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.048ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.794ms
+			MaterialPostprocessor.OnPostprocessAllAssets 1.639ms
+			SyncVS.PostprocessSyncProject 1.569ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.122ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.107ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.024ms
+			AssetChangedListener.OnPostprocessAllAssets 1.011ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.001ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.862ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.813ms
+			PostProcessor.OnPostprocessAllAssets 0.728ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.689ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.535ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.518ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.508ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.448ms
+			AssetEvents.OnPostprocessAllAssets 0.446ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.402ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.349ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.324ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.321ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.263ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.198ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.141ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.050ms
+	PostAssetChangesProfiler: 25.197ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.320ms
+	UnloadStreamsBegin: 3.322ms
+	PersistCurrentRevisions: 0.846ms
+	Untracked: 10.384ms
+
+[Worker0] Imported GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: PreviewImporter -> (ImportResultId: 'd80648716906ae3db10d5624fabb0500') in 0.0313742 seconds
+[Worker0] Imported GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'df32cbb13c8b3cc64a86ecfa251f7adc') in 0.0419733 seconds
+Asset Pipeline Refresh (id=d8687de82a8897d45b5dfa9e201ca8bc): Total: 0.055 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3' with importer (AudioImporter)
+Imported 'GUID: ae93e08456c2b5b49a26c6a4e52c0572' -> (Import Result ID: 'a85146942defe3ed3775967097692c2d') in 9.295 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e09665099fefd8f5f3ad437f6226b7a3 DependenciesID=f73e26d1a0ea253b51d91d245b3e02e9 StaticDependenciesID=e11d3952967c6ef3ea51af7eeb5f959e 
+Refreshing native plugins compatible for Editor in 15.65 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=f0b355fd540457445a625fe44ebbb286): Total: 9.463 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=9422 ms
+		Asset DB Callback time: managed=17 ms, native=21 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2191, non-scripts=5512
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	ApplyChangesToAssetFolders: 0.198ms
+	Scan: 28.917ms
+	Collect global state as custom dependencies: 0.896ms
+	OnSourceAssetsModified: 0.126ms
+	ProcessAssetsWithTransientArtifactChanges: 0.114ms
+	CategorizeAssets: 59.918ms
+	ImportOutOfDateAssets: 9303.308ms (0.766ms without children)
+		ImportManagerImport: 9299.727ms (0.956ms without children)
+			UpdateCategorizedAssets: 0.061ms
+		ReloadNativeAssets: 0.087ms
+		UnloadImportedAssets: 0.320ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.666ms
+		ImportSchedulerStart: 0.710ms
+	PostProcessAllAssets: 11.620ms
+		XRBuildSystem.XRAssetImported 2.185ms
+		VersionControlSettings.HiddenFilePostprocess 0.079ms
+		MonoPostProcessAllAssets: 8.907ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.359ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 1.105ms
+			SyncVS.PostprocessSyncProject 0.979ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.408ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.279ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.203ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.192ms
+			AssetChangedListener.OnPostprocessAllAssets 0.132ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.124ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.054ms
+	PostAssetChangesProfiler: 27.201ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.765ms
+	UnloadStreamsBegin: 0.080ms
+	PersistCurrentRevisions: 0.645ms
+	Untracked: 29.555ms
+
+[Worker0] Imported GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter -> (ImportResultId: 'c38f321ebcae9c7c120cbe5f5b205ca0') in 0.8123695 seconds
+[Worker0] Imported GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '23994acea0144c6b18be7d49e5429628') in 0.1085637 seconds
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Asset Pipeline Refresh (id=a37531221fe78424192949d309c29f42): Total: 0.063 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3' with importer (AudioImporter)
+Imported 'GUID: 8973b0f9ac8f4df439135f17a3d476f2' -> (Import Result ID: 'e80ed2623a613d4d50e354b73e223fdb') in 9.918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c6ed93e9f3c50d793e239d7880d5e12 DependenciesID=6cd44c15734a40a9c2a318938673e186 StaticDependenciesID=a14dc5602c2b120d42da394603abf874 
+Refreshing native plugins compatible for Editor in 25.21 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=a92a9c6f979f9d246b4fab09263ffbf9): Total: 10.170 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=10119 ms
+		Asset DB Callback time: managed=18 ms, native=30 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2191, non-scripts=5513
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	ApplyChangesToAssetFolders: 0.231ms
+	Scan: 48.439ms
+	Collect global state as custom dependencies: 1.125ms
+	OnSourceAssetsModified: 0.158ms
+	ProcessAssetsWithTransientArtifactChanges: 0.315ms
+	CategorizeAssets: 94.874ms
+	ImportOutOfDateAssets: 9929.665ms (1.016ms without children)
+		ImportManagerImport: 9925.003ms (1.246ms without children)
+			UpdateCategorizedAssets: 0.080ms
+		ReloadNativeAssets: 0.126ms
+		UnloadImportedAssets: 0.435ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.323ms
+		ImportSchedulerStart: 0.704ms
+	PostProcessAllAssets: 10.535ms
+		XRBuildSystem.XRAssetImported 2.433ms
+		VersionControlSettings.HiddenFilePostprocess 0.144ms
+		MonoPostProcessAllAssets: 7.409ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 2.371ms
+			SyncVS.PostprocessSyncProject 1.320ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.612ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.344ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.293ms
+			AssetChangedListener.OnPostprocessAllAssets 0.222ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.217ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 0.198ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.195ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.072ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.072ms
+			PostProcessor.OnPostprocessAllAssets 0.053ms
+	PostAssetChangesProfiler: 38.966ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.125ms
+	PersistCurrentRevisions: 0.951ms
+	Untracked: 43.095ms
+
+[Worker0] Imported GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter -> (ImportResultId: '567225fdd870c797d1793aca11d4ee47') in 0.1021304 seconds
+[Worker0] Imported GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3cd3eedca204e1604f072ac2edea9027') in 0.0585455 seconds
+Asset Pipeline Refresh (id=f8d881ad426166f47bb1c060675dea59): Total: 0.068 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Request Asset Garbage Collect because used heap size increased from 0.54 GB to 0.80 GB, exceeding the threshold of 256.0 MB.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (16.8 MB). Loaded Objects now: 12862.
+Memory consumption went from 0.80 GB to 0.78 GB.
+Total: 83.465900 ms (FindLiveObjects: 2.133300 ms CreateObjectMapping: 0.979300 ms MarkObjects: 64.371600 ms  DeleteObjects: 15.012600 ms)
+
+[Worker0] Imported GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: PreviewImporter -> (ImportResultId: '5f1d47867ef6f089b8c29da5ce2f9cb2') in 0.0252312 seconds
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '9471a9356de28d23b842388da0b81486') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=13968a1ea0aba76434bce8c4646787a2 StaticDependenciesID=477ee51f181756e4219eb0118822df3f 
+Importing 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2' -> (Import Result ID: 'cb618a525d49d3c8d6545b94bc5a33ef') in 0.024 seconds [static dependencies only]. Details - ImportResultOutputID=cbc3bbf2d843e56be7c9e6f21f25942f DependenciesID=e55ee2def2261e3d891ea9b262acf815 StaticDependenciesID=cc2b75747147a038f65ce63a73da9338 
+Refreshing native plugins compatible for Editor in 6.00 ms, found 5 plugins.
+Asset Pipeline Refresh (id=6c1b87c4a06b85d4b89a45608396a8b8): Total: 0.228 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity' with importer (DefaultImporter)
+Imported 'GUID: 234b6a9c6c315854c806599b1e7f7d88' -> (Import Result ID: 'a8e2a6bd9c3cad5af2a0cac096957ed6') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=a036add2a8dee12fb991e0c390493606 DependenciesID=e28d6e7df7a4f3093fc5f71ac299e133 StaticDependenciesID=882f11d15887caf417a04c09ff7fce25 
+Refreshing native plugins compatible for Editor in 7.87 ms, found 5 plugins.
+Asset Pipeline Refresh (id=f83d1b5bcc96e6440b031718ad4fcfa9): Total: 0.148 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Scene2.unity'
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Scene2.unity'
+	Deserialize:            13.222 ms
+	Integration:            62.069 ms
+	Integration of assets:  0.087 ms
+	Thread Wait Time:       0.067 ms
+	Total Operation Time:   75.446 ms
+Unloading 175 unused Assets / (9.3 MB). Loaded Objects now: 12720.
+Memory consumption went from 0.77 GB to 0.76 GB.
+Total: 60.061700 ms (FindLiveObjects: 1.960000 ms CreateObjectMapping: 0.767100 ms MarkObjects: 55.570400 ms  DeleteObjects: 0.978400 ms)
+
+[Worker1] Imported GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '48fd3362f445b4a8514ae439c2de9cbb') in 0.1722968 seconds
+[Worker0] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '158c55132fa3b8d694257141e7800ed8') in 0.1832398 seconds
+[Worker0] Imported GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: PreviewImporter -> (ImportResultId: 'd2cd7a9851b0476162e7ea807fe5d5e9') in 0.0380734 seconds
+Importing 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2' -> (Import Result ID: '63ffefe47a7bb369569a2a322b2d8796') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=cbc3bbf2d843e56be7c9e6f21f25942f DependenciesID=92ffe358a433b72c66ce333ae58b29c4 StaticDependenciesID=cc3668f08f4693426a1c6ec0f0320fd7 
+Refreshing native plugins compatible for Editor in 10.55 ms, found 5 plugins.
+Asset Pipeline Refresh (id=f12e2ece1a3ada34f9f663d5ca8ef5bb): Total: 0.166 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity' with importer (DefaultImporter)
+Imported 'GUID: 297b588ec81c8cb44b137a710a1f695a' -> (Import Result ID: '9e9ecc1092fe8588f99a44a1fac27c2d') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=5b9368d90724753310f401f936b8e06e DependenciesID=6ed2d4a63e891ca3edac16bc6c80e58c StaticDependenciesID=36d8cc564cabe1ec3e33e9ee33dbcbb9 
+Refreshing native plugins compatible for Editor in 8.80 ms, found 5 plugins.
+Asset Pipeline Refresh (id=c4834a5878fc9644ea41825aa3eec5d8): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Opening scene 'Assets/Scenes/Scene3.unity'
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Scene3.unity'
+	Deserialize:            12.034 ms
+	Integration:            72.615 ms
+	Integration of assets:  0.083 ms
+	Thread Wait Time:       0.066 ms
+	Total Operation Time:   84.799 ms
+Unloading 189 unused Assets / (9.4 MB). Loaded Objects now: 12721.
+Memory consumption went from 0.77 GB to 0.76 GB.
+Total: 66.137100 ms (FindLiveObjects: 2.432400 ms CreateObjectMapping: 1.050800 ms MarkObjects: 60.080500 ms  DeleteObjects: 1.678800 ms)
+
+[Worker0] Imported GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82627e9b48a44fea9c32c759dbaee465') in 0.0481704 seconds
+[Worker1] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a8449fec41243ea81e036061381b659b') in 0.2308458 seconds
+Importing 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2' -> (Import Result ID: 'e331a5bbb7b537f39e8e72e104e6fa15') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=cbc3bbf2d843e56be7c9e6f21f25942f DependenciesID=16165a4af6b6c327814859cf61561a06 StaticDependenciesID=cde25c02aec7fd9fcb9f26fb2572425d 
+Refreshing native plugins compatible for Editor in 6.65 ms, found 5 plugins.
+Asset Pipeline Refresh (id=18895425583b6d748bc955efd83ddc12): Total: 0.160 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity' with importer (DefaultImporter)
+Imported 'GUID: 813880d116a0269409a8a23ebdb4f887' -> (Import Result ID: 'eb612d6d9b77b3e94f1d9c84c814f14c') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=36154226a8279f619fe1ed50af91ff06 DependenciesID=b7a56b452eea0dd168bfae6c91b3f24c StaticDependenciesID=ee4f33fe1e42089a6a62a1b524fb40a5 
+Refreshing native plugins compatible for Editor in 7.32 ms, found 5 plugins.
+Asset Pipeline Refresh (id=43b7d6c5351c94849bbf7f9d034da2dd): Total: 0.151 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker0] Imported GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0d06d694273e6295a57219d3a0257219') in 0.0352203 seconds
+[Worker1] Imported GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'edc5b0f893741070faa3c513ce223236') in 0.076469 seconds
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)

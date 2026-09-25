@@ -1,0 +1,463 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7" at "2026-09-25T21:21:27.0305031Z"
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16208 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-25T21:21:27Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18360, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              c0db3ac2481e45ceb764c656ceab4704
+  Correlation Id:          1330d2a581d7137aeef1bed4a47e9b1e
+  External correlation Id: 8872396326963496092
+  Machine Id:              qWafhisASDQIfrFUAICso/rlL1w=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7" (connect: 0.00s, validation: 0.00s, handshake: 0.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WAEC1EyiiZrrBbSeSSQu7-notifications" at "2026-09-25T21:21:27.1653202Z"
+[Licensing::Module] Licensing Background thread has ended after 0.14s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+50172
+-parentPid
+10752
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+1691c19561814814ebd337b1f53e6e5e
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+f0059bd3c9bbbae27c00e5112c1de75655c837bd
+-cbmMachineId
+qWafhisASDQIfrFUAICso/rlL1w=
+-licensingIpc
+LicenseClient-WAEC1EyiiZrrBbSeSSQu7
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject
+C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [19952]  Target information:
+
+Player connection [19952]  * "[IP] 216.37.102.188 [Port] 0 [Flags] 2 [Guid] 3801910831 [EditorId] 3801910831 [Version] 1048832 [Id] WindowsEditor(7,Nadiasurface) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19952] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19952] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 4aa196f9ef678214ef5c967b6b899d95
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 65.30 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 7.09 ms.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nadia/Documents/GitHub/KioskProject/KioskProject/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:          Intel
+    VRAM:            8104 MB
+    App VRAM Budget: 7442 MB
+    Driver:          32.0.101.7088
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006870 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.117 seconds
+Domain Reload Profiling: 3324ms
+	BeginReloadAssembly (972ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (258ms)
+	LoadAllAssembliesAndSetupDomain (905ms)
+		LoadAssemblies (973ms)
+		TypeCache.Refresh (618ms)
+			TypeCache.ScanAssembly (577ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1118ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (92ms)
+			BeforeProcessingInitializeOnLoad (257ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (359ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-3VZ2-5WT4-GH8V-WM95-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2476045025254-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Got setting from build profile YAML, name `m_Development`, value `0`
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 6.65 ms, found 5 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.57 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 12.85 ms, found 5 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.969 seconds
+Domain Reload Profiling: 8508ms
+	BeginReloadAssembly (685ms)
+		DisableScriptedObjects (159ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (248ms)
+	LoadAllAssembliesAndSetupDomain (2543ms)
+		LoadAssemblies (1213ms)
+		TypeCache.Refresh (916ms)
+			TypeCache.ScanAssembly (858ms)
+		AnalyzeDomain (258ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4971ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			BeforeProcessingInitializeOnLoad (544ms)
+			ProcessInitializeOnLoadAttributes (2600ms)
+			ProcessInitializeOnLoadMethodAttributes (678ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (6ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 8.32 ms, found 5 plugins.
+Unloading 105 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10295 unused Assets / (25.6 MB). Loaded Objects now: 11197.
+Memory consumption went from 476.8 MB to 451.2 MB.
+Total: 42.537500 ms (FindLiveObjects: 2.330800 ms CreateObjectMapping: 1.165200 ms MarkObjects: 29.207400 ms  DeleteObjects: 9.034100 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 7.63 ms, found 5 plugins.
+Unloading 104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (16.9 MB). Loaded Objects now: 11197.
+Memory consumption went from 465.3 MB to 448.4 MB.
+Total: 37.797300 ms (FindLiveObjects: 1.373200 ms CreateObjectMapping: 0.610500 ms MarkObjects: 29.041500 ms  DeleteObjects: 6.002900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:49.3882362Z
+  Time since last request: 112946.94452499999898 seconds.
+  importAddress: GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 813880d116a0269409a8a23ebdb4f887' -> (Import Result ID: '79c03d28ec5967a3b29050a6c59585f9') in 0.314 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e2f9346a2352162e1890f83cce5a9bd DependenciesID=c41119aa18f9d065287375c6e6cef13d StaticDependenciesID=b75e4a141f3ba102ff6fd2601b79db87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:49.7495276Z
+  Time since last request: 0.0000698 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'f37d9ba4797c43cc023f848a8c5a0bb5') in 0.060 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8e39227d1945a35b782c43d0169d0a9 DependenciesID=32adaed37fc2bdf307d5a130bf4146a4 StaticDependenciesID=7fa3a118f6b2965dac9391de87d7cf24 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:49.903011Z
+  Time since last request: 0.0012101 seconds.
+  importAddress: GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 234b6a9c6c315854c806599b1e7f7d88' -> (Import Result ID: '50b888a9c20db7e2e4cb465d1b458c01') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab18a57a51fc1cf6051419faaacc8e8b DependenciesID=95fade2d19da0a0fb324b69e5f8d62c8 StaticDependenciesID=5793bf63d04b5e075ea597d0f9674b81 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:49.9736808Z
+  Time since last request: 0.0009285 seconds.
+  importAddress: GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a00013af81304728b2be1f4309ee2433 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a00013af81304728b2be1f4309ee2433' -> (Import Result ID: '5f69d2c891e32c44a1d2511e50d53fe2') in 0.099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dde283bf07f9c3cd5d0fb86efc4b6c2 DependenciesID=fac47216ad5b43f6e8db8b1e5712acb8 StaticDependenciesID=1ae7b3f9b0e09a2f95b3dcda1e651305 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:50.123819Z
+  Time since last request: 0.0010477 seconds.
+  importAddress: GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 297b588ec81c8cb44b137a710a1f695a' -> (Import Result ID: '96a987d2340f4bdcf9645eff869b33f6') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=677ad10261e0e75ab1449da72ad07846 DependenciesID=864deb8ea78c3b93a867e7ebad1228b8 StaticDependenciesID=33e5bdea9ea16c3b756d809796f0c4a7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:21:57.3607309Z
+  Time since last request: 7.1616095 seconds.
+  importAddress: GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: PreviewImporter
+Importing 'GUID: 234b6a9c6c315854c806599b1e7f7d88 - Path: Assets/Scenes/Scene1.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 234b6a9c6c315854c806599b1e7f7d88' -> (Import Result ID: '836c601e8b97a887b8b70017a3d45281') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7394e0bf377a46367f84b3125e4c2af5 DependenciesID=ca2329b06778846e03687c84369a601f StaticDependenciesID=4948c120918d312e460a5d67083da9a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:22:32.7858095Z
+  Time since last request: 35.3904948 seconds.
+  importAddress: GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter
+Importing 'GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00000000000000001000000000000000' -> (Import Result ID: 'e7deeb2551deae0121fd5a6b039aae71') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=923ecb25fcaecb4cb3c936046707f967 DependenciesID=e433eb2cc7fcfa398a42c02d690773b6 StaticDependenciesID=49809cc4be1468db50a967dd266d4b5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.95 ms, found 5 plugins.
+Unloading 104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (17.0 MB). Loaded Objects now: 11199.
+Memory consumption went from 467.3 MB to 450.3 MB.
+Total: 46.378700 ms (FindLiveObjects: 1.223600 ms CreateObjectMapping: 0.953600 ms MarkObjects: 36.448100 ms  DeleteObjects: 7.032200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:22:45.7891343Z
+  Time since last request: 12.9637107 seconds.
+  importAddress: GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: PreviewImporter
+Importing 'GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3485a993517e1024cab3ca1ac50e5d08' -> (Import Result ID: 'd80648716906ae3db10d5624fabb0500') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba5c8360f0363c7b99743acb519ba903 DependenciesID=301bbb5a0d5fb497dec517ac6b105402 StaticDependenciesID=d3ef1d30116ae4ed4bc752c78c61d46e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:22:46.6155406Z
+  Time since last request: 0.7945455 seconds.
+  importAddress: GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3485a993517e1024cab3ca1ac50e5d08 - Path: Assets/Audio - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3485a993517e1024cab3ca1ac50e5d08' -> (Import Result ID: 'df32cbb13c8b3cc64a86ecfa251f7adc') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf20868b23fe8c8033d8ef5099b7f1ee DependenciesID=18f1553472bdfa564be78e28e190d89d StaticDependenciesID=f6bf907429aae09a977e72f01fed0d39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:26:14.4109587Z
+  Time since last request: 207.75282110000001 seconds.
+  importAddress: GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter
+Importing 'GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae93e08456c2b5b49a26c6a4e52c0572' -> (Import Result ID: 'c38f321ebcae9c7c120cbe5f5b205ca0') in 0.767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45406b3660d3fe710b7040138e6719b1 DependenciesID=965885f74358a1f64a948cb9ff01940c StaticDependenciesID=d3e78493adaf3aca46c7370cedec9bc6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:26:15.4273413Z
+  Time since last request: 0.1931689 seconds.
+  importAddress: GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ae93e08456c2b5b49a26c6a4e52c0572 - Path: Assets/Audio/Keith Richards – Bright Lights, Big City (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ae93e08456c2b5b49a26c6a4e52c0572' -> (Import Result ID: '23994acea0144c6b18be7d49e5429628') in 0.063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0ef1ab788b1ce0b55bf232ae66fdd3e DependenciesID=61e652ca79997fdef03afd278209c127 StaticDependenciesID=088c6b632be9ceeb8d0f3f2d9578970e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:28:30.9597865Z
+  Time since last request: 135.4235266 seconds.
+  importAddress: GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter
+Importing 'GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8973b0f9ac8f4df439135f17a3d476f2' -> (Import Result ID: '567225fdd870c797d1793aca11d4ee47') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4557df8f28ace7823ab1a3961e6ed0fd DependenciesID=ef1dd1133b238e7f8e1869c30a1548a8 StaticDependenciesID=9c87488fda2c037874d63f26a01f7705 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:28:31.9556531Z
+  Time since last request: 0.8921931 seconds.
+  importAddress: GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8973b0f9ac8f4df439135f17a3d476f2 - Path: Assets/Audio/Morgan Wallen – Last Thing You Need (From Grand Theft Auto VI The Album).mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8973b0f9ac8f4df439135f17a3d476f2' -> (Import Result ID: '3cd3eedca204e1604f072ac2edea9027') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f59d8012cf3a0e4486769837437d6fc DependenciesID=eaf2aa9dedcb76ea698680f7947fd384 StaticDependenciesID=d84b588ae6860ee1b063ce6720c78cd0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:31:02.5294481Z
+  Time since last request: 150.51432019999999 seconds.
+  importAddress: GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: PreviewImporter
+Importing 'GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 297b588ec81c8cb44b137a710a1f695a' -> (Import Result ID: '5f1d47867ef6f089b8c29da5ce2f9cb2') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3de205026b7ff0467c1c71768ccf6899 DependenciesID=c672302ad1035b3ae9f8e5523e1397e5 StaticDependenciesID=a06ab7209bd333bba9190b169d4b541d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 7.96 ms, found 5 plugins.
+Unloading 104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (16.9 MB). Loaded Objects now: 11209.
+Memory consumption went from 470.6 MB to 453.7 MB.
+Total: 61.274300 ms (FindLiveObjects: 1.575500 ms CreateObjectMapping: 1.221000 ms MarkObjects: 45.543600 ms  DeleteObjects: 12.060600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:31:05.9033311Z
+  Time since last request: 3.3484004 seconds.
+  importAddress: GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2 - Path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8a89fa14b10d46a99122fd4f73fca9a2' -> (Import Result ID: '158c55132fa3b8d694257141e7800ed8') in 0.159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a0dc679e2c9f10e6a278f2b16c8cf4f DependenciesID=1cfef2d9bf4e10849e4b0e978b52781b StaticDependenciesID=e5da768bd305e98c8f785321ccf4de2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:32:13.431833Z
+  Time since last request: 67.34473610000001 seconds.
+  importAddress: GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: PreviewImporter
+Importing 'GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 813880d116a0269409a8a23ebdb4f887' -> (Import Result ID: 'd2cd7a9851b0476162e7ea807fe5d5e9') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f50f216faafd43e0842346b86f1f533f DependenciesID=2888665c208575f06aa0657e49e0dc4c StaticDependenciesID=f92ecc51e52316289a974c41312fafcd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 6.05 ms, found 5 plugins.
+Unloading 104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (16.9 MB). Loaded Objects now: 11209.
+Memory consumption went from 472.0 MB to 455.1 MB.
+Total: 52.805500 ms (FindLiveObjects: 1.548500 ms CreateObjectMapping: 1.411200 ms MarkObjects: 41.825500 ms  DeleteObjects: 7.283700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:32:16.1309332Z
+  Time since last request: 2.6605007 seconds.
+  importAddress: GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 297b588ec81c8cb44b137a710a1f695a - Path: Assets/Scenes/Scene2.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 297b588ec81c8cb44b137a710a1f695a' -> (Import Result ID: '82627e9b48a44fea9c32c759dbaee465') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9add5547f813d4f918ba513ef6c3aa0 DependenciesID=60a4422bc7e38703ac3fb6d774259fc9 StaticDependenciesID=18ab7b62d62687866dfd4916b3aae986 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.57 ms, found 5 plugins.
+Unloading 104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (17.0 MB). Loaded Objects now: 11209.
+Memory consumption went from 474.7 MB to 457.7 MB.
+Total: 41.195700 ms (FindLiveObjects: 1.220100 ms CreateObjectMapping: 0.694800 ms MarkObjects: 31.508300 ms  DeleteObjects: 7.025700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-25T21:34:28.2956131Z
+  Time since last request: 132.11610189999999 seconds.
+  importAddress: GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 813880d116a0269409a8a23ebdb4f887 - Path: Assets/Scenes/Scene3.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 813880d116a0269409a8a23ebdb4f887' -> (Import Result ID: '0d06d694273e6295a57219d3a0257219') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce5be7a35d7fa4a95ffdec2f0794c4b5 DependenciesID=e81e9487ad789edf7da5f03c9a76c60d StaticDependenciesID=4506bcf0f2381feb5967603745cef522 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

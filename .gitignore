@@ -1,0 +1,17 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[尝ogs]/
+/[UserSettings]/
+/[MemoryCaptures]/
+
+# Ignore temporary code workspace files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+.vs/
+.vsconfig
